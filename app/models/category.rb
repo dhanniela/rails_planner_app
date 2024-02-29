@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-    belongs_to :users
+    belongs_to :user
   
     has_many :tasks, dependent: :destroy
   
